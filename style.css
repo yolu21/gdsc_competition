@@ -1,0 +1,226 @@
+html,body{
+    min-height: 100vh;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#head{
+    height: 30vh;
+    width: 45vh;
+    border: 4px solid black;
+    background-color: rgb(232, 34, 34);
+    border-radius: 22vh 22vh 1vh 1vh;
+    position: relative;
+}
+#body1{
+    height: 30vh;
+    width: 45vh;
+    border: 4px solid black;
+    border-top: 0px;
+    border-bottom: 0px;
+    background-color: rgb(243, 219, 50);
+    border-radius: 1vh 1vh 10vh 10vh;
+    position: relative;
+}
+#body2{
+    height: 20vh;
+    width: 45vh;
+    border: 4px solid black;
+    border-top: 0px;
+    background-color: rgb(126, 73, 50);
+    border-radius: 1vh 1vh 22vh 22vh;
+    position: relative;
+    top:-10vh;
+    z-index: 3;
+}
+#box1{
+    height: 10vh;
+    width: 10vh;
+    background-color: rgb(126, 73, 50);
+    clip-path: polygon(0 0, 39% 0, 54% 100%, 0% 100%);
+    position: relative;
+    top:-9vh;
+}
+#box2{
+    height: 10vh;
+    width: 10vh;
+    background-color: rgb(126, 73, 50);
+    position: relative;
+    top:-12vh;
+    left: 3vh;;
+}
+.box{
+    height: 12vh;
+    width: 12vh;
+    background-color: rgb(126, 73, 50);
+    position: relative;
+}
+#box3{
+    clip-path: polygon(15% 0, 47% 0, 93% 100%, 0% 100%);
+    top:-28vh;
+    left:10vh;
+}
+#box4{
+    clip-path: polygon(100% 45%, 0% 100%, 100% 100%);
+    top:-41vh;
+    left:14vh;
+}
+#box5{
+    clip-path: polygon(49% 9%, 80% 0, 60% 100%, 30% 100%);
+    top:-56vh;
+    left:20vh;
+    transform: rotate(-10deg);
+}
+#box6{
+    clip-path: polygon(0 51%, 100% 0, 100% 100%, 0% 100%);
+    top:-65vh;
+    left:26.5vh;
+}
+#box7{
+    height: 15vh;
+    width: 7vh;
+    background-color: rgb(126, 73, 50);
+    position: relative;
+    border-bottom-right-radius: 1vh ;
+    top:-80vh;
+    left:38vh;
+}
+.eye_w1{
+    height: 15vh;
+    width: 15vh;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 7.5vh;
+    position: relative;
+    top:-75vh;
+    left: 3vh;
+}
+.eye_b1{
+    height: 10vh;
+    width: 10vh;
+    border: 2px solid black;
+    background-color: black;
+    border-radius: 5vh;
+    position: relative;
+    top:17%;
+    left: 30.5%;
+}
+.eye_w2{
+    height: 18vh;
+    width: 18vh;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 10vh;
+    position: relative;
+    top:-91vh;
+    left: 18vh;
+}
+.eye_b2{
+    height: 12vh;
+    width: 12vh;
+    border: 2px solid black;
+    background-color: black;
+    border-radius: 6vh;
+    position: relative;
+    top:15%;
+    left: -1%;
+}
+#mouth{
+    height: 18vh;
+    width: 36vh;
+    border: 2px solid black;
+    background-color: rgb(253, 158, 72);
+    position: relative;
+    top:-94vh;
+    left: -10vh;
+    transform: rotate(-12deg);
+    border-radius:66% 34% 34% 66% / 48% 51% 49% 52% ;
+}
+#Lfeet{
+    height: 6.5vh;
+    width: 2vh;
+    border: 2px solid black;
+    border-bottom: 0px ;
+    background-color: rgb(67, 41, 27);
+    transform: rotate(12deg);
+    position: relative;
+    top:-65vh;
+    left: 10vh;
+    z-index: 1;
+}
+#L1{
+    height: 2vh;
+    width: 16vh;
+    border-bottom: 0px ;
+    border-radius: 2vh;
+    background-color: rgb(67, 41, 27);
+    transform: rotate(-5deg);
+    position: relative;
+    top:5vh;
+    left:-9vh;
+}
+#L2{
+    height: 2vh;
+    width: 12vh;
+    border-radius: 2vh;
+    background-color: rgb(67, 41, 27);
+    transform: rotate(-20deg);
+    position: relative;
+    top:5vh;
+    left:-10vh;
+}
+#L3{
+    height: 2vh;
+    width: 12vh;
+    border-radius: 2vh;
+    background-color: rgb(67, 41, 27);
+    transform: rotate(-30deg);
+    position: relative;
+    top: 3.5vh;
+    left:-7vh;
+}
+#Rfeet{
+    height: 6.5vh;
+    width: 2vh;
+    border: 2px solid black;
+    border-bottom: 0px ;
+    background-color: rgb(67, 41, 27);
+    transform: rotate(-10deg);
+    position: relative;
+    top:-70vh;
+    left: 25vh;
+    z-index: 1;
+}
+#R1{
+    height: 2vh;
+    width: 16vh;
+    border-bottom: 0px ;
+    border-radius: 2vh;
+    background-color: rgb(67, 41, 27);
+    transform: rotate(8deg);
+    position: relative;
+    top:5vh;
+    left:-5vh;
+}
+#R2{
+    height: 2vh;
+    width: 12vh;
+    border-radius: 2vh;
+    background-color: rgb(67, 41, 27);
+    transform: rotate(20deg);
+    position: relative;
+    top: 5vh;
+    left:-1vh;
+}
+#R3{
+    height: 2vh;
+    width: 12vh;
+    border-radius: 2vh;
+    background-color: rgb(67, 41, 27);
+    transform: rotate(35deg);
+    position: relative;
+    top: 3.5vh;
+    left:-3.5vh;
+}
